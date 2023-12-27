@@ -1,0 +1,27 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Районная библиотека</title>
+</head>
+<body>
+<div class="main flex-column">
+
+    <div class="flex-column">
+        <header class="flex-row container">
+            <a href="#">
+                <img id="logo" alt="Логотип" src="img/logo.jpg"/>
+            </a>
+            <h1>Районная библиотека</h1>
+        </header>
+        <div class="nav-block flex container">
+            <div class="nav-panel">
+                <a href="#">Все</a>|
+                <a href="#">Художественные</a>|
+                <a href="#">Учебные</a>|
+                <a href="#">Научные</a>|
+                <a href="#">Искусство и культура</a>
+            </div>
+        </div>
+    </div>
